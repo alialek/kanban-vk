@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap&subset=cyrillic');
 
 * {
   box-sizing: border-box;
@@ -73,7 +73,7 @@ body {
 }
 
 .column-header p {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 13px;
   line-height: 19px;
 }
