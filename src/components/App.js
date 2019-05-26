@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import TrelloList from './TrelloList';
 import { connect } from 'react-redux';
 import AddButton from '../components/AddButton';
-import { continueStatement } from '@babel/types';
 
 class App extends Component {
   dragOver = e => {
