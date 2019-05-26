@@ -3,6 +3,10 @@
 Тестовое задание на стажировку во ВКонтакте.
 Trello-подобная доска на React + Redux. Drag'n'drop - без сторонних библиотек.
 
+Перед стартом не забудьте установить зависимости:
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
