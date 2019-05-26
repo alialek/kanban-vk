@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  box-sizing: border-box;
+  line-height: 19px;
+  font-family: Montserrat;
+}
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  height: 100%;
+  font-family: Montserrat;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: darkblue url(../img/background.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.row {
+  padding: 21px 0px 21px 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 20px;
+  max-height: 100%;
+}
+
+.column {
+  background: #dfe3e6;
+  border-radius: 3px;
+  height: 100%;
+  min-height: 43px;
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  padding: 0px 12px;
+}
+
+.card p {
+  font-size: 13px;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+}
+
+.card {
+  width: 248px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(9, 45, 66, 0.25);
+  border-radius: 3px;
+  margin-bottom: 8px;
+  padding: 8px 8px 8px 12px;
+  cursor: pointer;
+}
+
+.cards:nth-child(1) {
+  padding-top: 0px;
+}
+
+.column-header {
+  height: 39px;
+  padding: 8px 8px 12px 12px;
+}
+
+.column-header p {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.column-footer img {
+  width: 15px;
+  margin-right: 8px;
+  height: 15px;
+}
+.column-footer p {
+  color: #6b808c;
+  font-size: 13px;
+}
+
+.column-footer {
+  display: flex;
+  z-index: 1;
+  padding: 12px 12px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 3px;
+  height: 100%;
+  background: #dfe3e6;
+  width: 272px;
+  transition: 0.3s;
+}
+
+.column-footer:hover {
+  background-color: #c9d2d9;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+button {
+  padding: 7px 8px 4px 8px;
+  background: #39c071;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button:hover {
+  background: #33b465;
+  transition: 0.3s;
+}
+
+form {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(9, 45, 66, 0.25);
+  border-radius: 3px;
+  border: 0;
+  min-height: 35px;
+  margin-bottom: 8px;
+  padding: 8px 6px 8px 12px;
+  overflow-y: hidden;
+  resize: none;
+}
+
+textarea::placeholder {
+  font-size: 13px;
+  line-height: 19px;
+}
+
+textarea::-ms-input-placeholder {
+  padding: 8px 0px 8px 12px;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+textarea:-ms-input-placeholder {
+  padding: 8px 0px 8px 12px;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.close-button {
+  transform: rotate(45deg);
+}
+
+[draggable] {
+  cursor: move;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+.dragging {
+  opacity: 1;
+  transform: rotate(5deg);
+}
+
+.new {
+  border-radius: 3px;
+  width: 272px;
+}
+
+.card-placeholder {
+  width: 100%;
+  background-color: #c9d2d9;
+
+  margin-bottom: 8px;
+  border-radius: 3px;
+}
